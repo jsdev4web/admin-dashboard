@@ -32,8 +32,16 @@
 }
 
 #nameIcon {
+    display: flex;
+    justify-content: start;
     height: 1rem;
 
+}
+
+#buttons {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
 }
 
 #searchbar {
@@ -68,7 +76,7 @@
 .sidebar {
     background-color: violet;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
@@ -80,7 +88,7 @@
 .sidebar li {
     list-style-type: none;
     padding-bottom: 7px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .article {
@@ -92,13 +100,12 @@
     padding-right: 5cqi;
     padding-top: 20px;
 
-    
 }
 
 .cardHolder{
     margin-left: 20px;
     margin-right: 10px;
-
+    padding-bottom: 3%;
 }
 
 .cards {
@@ -118,7 +125,7 @@
     width: 15rem;
     text-align: left;
     font-size: 14px;
-    height: 11.5rem;
+    height: 11.9rem;
     padding-right: 5%;
 }
 
@@ -140,7 +147,7 @@
 .announcements {
     display: grid;
     background-color: white;
-    row-gap: 10px;
+    row-gap: 7px;
     padding: 10px;
     margin-top: 7px;
 }
@@ -162,8 +169,8 @@
     font-size: 12px;
     display: grid;
     grid-template-columns: 60px 1fr;
-    padding-top: 10px;
-    padding-bottom: 5%;
+    padding-top: 9px;
+    padding-bottom: 3.7%;
     
 }
 
