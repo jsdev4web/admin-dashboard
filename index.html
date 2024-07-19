@@ -10,18 +10,22 @@
 
     <div id="main">
         <div class="header">
-            <div class="search"><img src="headIcon/search.svg">
-                <input type="text" placeholder="Search..">
+             <div class="headDiv" id="search">
+                <img width="40px" height="30px" src="headIcon/magnifying-glass.jpg">
+                <input id="searchbar" type="text" placeholder="Search..">
             </div>
-            <div class="nameIcon"><img src="headIcon/bell.svg">&nbsp&nbsp<img src="headIcon/cat.svg">&nbsp<b>Morgan Oakley</b></div>
-            <div class="hiThere">
-                <div class="catHi"><img src="headIcon/cat.svg"></div>
+
+            <div class="headDiv" id="nameIcon"><img src="headIcon/bell.svg">&nbsp&nbsp<img src="headIcon/cat.svg">&nbsp<b>Morgan Oakley</b></div>
+
+            <div class="headDiv" id="hiThere">
+                <div><img src="headIcon/headshot.svg"></div>
                 <div class="hiText">
                     <div class="hithere">Hi there,</div>
                     <div class="hiName"><b>Morgan Oakley (@morgan)</b></div>
                 </div>
             </div>
-            <div class="buttons">
+
+            <div class="headDiv" id="buttons">
                 <button class="headBtn">New</button>
                 <button class="headBtn">Upload</button>
                 <button class="headBtn">Share</button>
@@ -47,46 +51,89 @@
 
         </div>
 
+        
         <div class="article">
-            <div class="cards">
+            
+        <div class="cardHolder">
+            <div class="subTitles">Your Projects</div>
 
+            <div class="cards">
+                
                 <li class="card"><b>Super Cool Project</b><br>
                 Sed tempus ut lacus ut scelerisque.
                 Suspendisse sollicitudin nibh erat, id
-                facilisis felis accumsan nec.</li>
+                facilisis felis accumsan nec.
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                    </div>
+                </li>
 
                 <li class="card"><b>Less Cool Project</b><br>
                 Nullam condimentum ipsum ut lectus vehicula
                 consectetur. Quisque sed dolor tincidunt,
                 consectetur sapien et, facilisis dolor. Duis sem
                 purus, dignissim ut sapien in, varius
-                pellentesque lactus</li>
+                pellentesque lactus
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                </div>
+                </li>
 
                 <li class="card"><b>Impossible App</b><br>
                 In hac habitasse platea dictumst. Vivamus
                 dictum rutrum arcu, a placerat velit sagittis
-                id.</li>
+                id.
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                </div>
+                </li>
 
                 <li class="card"><b>Easy Peasy App</b><br>
                 Etiam cursus eros ac efficitur fringilla.
                 Vestibulum dignissim urna eget accumsan
                 aliquam. Curabitur dignissim nisi in tortor
-                commodo, ac bibendum magna tincidunt.</li>
+                commodo, ac bibendum magna tincidunt.
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                </div>
+            </li>
 
                 <li class="card"><b>Ad Blocker</b><br>
                 Quisque egetr utrum nisi. Nam augue
                 justo, cursus vitae metus vel, pharetra
                 hendrerit felis. Aliquam sed malesuada
-                eros.</li>
+                eros.
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                </div>
+            </li>
 
                 <li class="card"><b>Money Maker</b><br>
                 Praesent convallis, libero quis congue
                 elementum, nunc ante faucibus sapien, ac
                 scelerisque tortor purus sit amer ex.
-                pellentesque mollis nec sem vel alquam.</li>
+                pellentesque mollis nec sem vel alquam.
+                <div class="cardIcons">
+                    <img src="cardIcons/star.svg">
+                    <img src="cardIcons/eye.svg">
+                    <img src="cardIcons/share.svg">
+                </div>
+            </li>
             </div>
+        </div>
 
             <div class="cardSidebar">
+                <div class="subTitles">Announcements</div>
                 <div class="announcements">
                     <div class="announce"><b>Site Maintenance</b><br>
                     Vestibulum condimentum tellus lactus,
@@ -104,6 +151,7 @@
                     mattis...
                     </div>
                 </div>
+                <div class="subTitles">Trending</div>
                 <div class="trending">
                     <div class="trend">
                         <div class="trendCol1"><img src="trendIcon/dog.svg"></div>
