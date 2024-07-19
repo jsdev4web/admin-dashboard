@@ -18,9 +18,10 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     
-    height: 115%;
-    margin-bottom: 5%;
-    padding-top: 1%;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3%;
+    padding-top: 2%;
 }
 
 .headBtn {
@@ -28,9 +29,24 @@
     border-radius: 20px;
     border-color: blue;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px;
     width: 6rem;
+}
+
+.hiThere {
+    display: flex;
+    margin-left: 13rem;
+    text-align: left;
+}
+
+.hiText {
+    display: flex;
+    flex-direction: column;
+}
+
+.hiName{
+    font-size: 20px;
 }
 
 .sidebar {
@@ -51,7 +67,6 @@
     padding-right: 20px;
 }
 
-
 .article {
     background-color: lightgray;
     grid-row: 2 / 5;
@@ -61,17 +76,18 @@
     padding-bottom: 100px;
     padding-top: 20px;
 
-    height: 116%;
+    height: 110%;
 }
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    
     margin-left: 20px;
     list-style-type: none;
     
 }
+
 
 .card {
     background-color: white;
@@ -107,3 +123,13 @@
 .trending {
     background-color: white;
 }
+
+.trend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trendCol2 {
+    text-align: left;
+}
+
